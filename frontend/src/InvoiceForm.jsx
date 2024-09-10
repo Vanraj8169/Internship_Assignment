@@ -74,7 +74,8 @@ const InvoiceForm = () => {
     setFormData({ ...formData, items: updatedItems });
   };
 
-  const addItem = () => {
+  const addItem = (e) => {
+    e.preventDefault();
     setFormData({
       ...formData,
       items: [
