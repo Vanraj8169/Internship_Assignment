@@ -17,11 +17,6 @@ This invoice generator allows users to input their data and automatically genera
 ```
 
 
-## Lessons Learned
-
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-
 ## Steps to Run the Project
 
 1. Clone the Repo
