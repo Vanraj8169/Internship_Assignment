@@ -226,7 +226,7 @@ const InvoiceForm = () => {
     try {
       console.log("Submitting form data:", formData); // Log the form data being sent
       const response = await axios.post(
-        "http://localhost:3000/generate-invoice",
+        "https://invoice-dp2o.onrender.com/generate-invoice",
         formData,
         {
           headers: {
